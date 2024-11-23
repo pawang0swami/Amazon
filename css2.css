@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+   height: 60px; 
+   background-color:rgb(15, 17, 17);
+   color: white;
+   display: flex;           /**help in line all emement**/
+   align-items: center;     /**help to in center all element in the bar or himselh**/ 
+     justify-content: space-evenly;  /**same sapace**/
+}
+.alogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Screenshot\ 2024-10-22\ at\ 2.46.55\ PM.png");
+    background-size:cover;
+    position: relative;
+    top: 10px;
+    height: 35px ;
+    width: 100px;
+    
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white
+}
+.add8{
+color: #cccccc;
+font-size: 0.8rem;
+margin-left: 1rem;
+}
+.add9{
+ font-size: 1rem;
+ margin-left:  0.5rem;
+}
+.add7{display: flex;}
+                              /**box3**/
+.s0{display: flex;
+    justify-content:space-evenly ;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+   background-color: pink;
+border: none;
+}
+
+.s1{
+  background-color: #f3f3f3;  
+  width: 45px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+border:none;
+}
+.s2{
+    width:100%;
+font-size: 1rem;
+border: none;
+}
+.s3{
+   width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color: #febd68;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #0f1111;
+}
+.abc:hover{
+    border: 2px solid orange;}
+
+/**box4,5**/
+span{font-size: 0.7rem;}
+.si1{font-size:0.85rem ;
+    font-weight:700 ;
+}
+/**box6**/
+.c0 i{
+ font-size: 35px;
+}
+.c0{
+    font-size: 0.85rem;
+     font-weight: 700;
+
+}
+/** new line**/
+.p1{
+    height:40px ;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.p3 p{
+    display: inline;
+    margin-left:15px ;
+}
+p3{
+    width:70% ;
+    font-size: 0.85rem;
+}
+.p4{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**hero**/
+.hero{
+    background-image:url(Screenshot\ 2024-10-22\ at\ 11.08.36\ PM.png) ;
+    background-size: cover;
+    height:192px ;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
+.hero1{
+    background-color: white;
+    display: flex;
+    height: 40px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+
+
+}
+.hero1 a{
+    color: orangered
+}
+.hero2{
+    background-image: url(Screenshot\ 2024-10-22\ at\ 11.16.36\ PM.png);
+    background-size: cover;
+    height: 128px ;
+}
+/**new box**/
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(230, 110, 19);
+}
+
+.yz{
+    height: 300px;
+    width: 23%;
+    border: 2px solid transparent;
+    background-color: white;
+    margin-top: 24px ;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+.yz p{ color:orangered;}
+
+.box1img{
+background-image: url(51FxGATpdZL._SR480\,440_.jpg);
+background-size: cover;
+height: 225px;
+;
+}
+.box2img{
+    background-image: url(410QZaPJFVL._SR480\,440_.jpg);
+    background-size: cover;
+    height: 225px;
+    ;
+    }
+    .box3img{
+        background-image: url(31hVrJSFR5L._SR480\,440_.jpg);
+        background-size: cover;
+        height: 225px;
+        ;
+        }
+        .box4img{
+            background-image: url(313U7Xx9b4L._SR480\,440_.jpg);
+            background-size: cover;
+            height: 225px;
+            ;
+            }
+            /**footer**/
+            .foot{
+                margin-top:15px ;
+            }
+            .foot0{
+                background-color: #37475a;
+                color: white;
+                height:50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.85rem;
+              }
+              .foot2{
+              background-color:#222f3d ;
+              color: white;
+              height:300px ;
+              display: flex;
+              justify-content: space-evenly;
+
+              }
+              ul {
+                margin-top: 20px;
+
+              }
+              ul p {
+                font-size: 0.85rem;
+                margin-top: 10px; 
+                color: #dddddd;
+              }
+              .foot3{
+                background-color: #222f3d;
+                color: white;
+                border-top: 0.5px solid white;
+                height: 80px;
+                display: flex;
+                 justify-content: center;
+                align-items: center;
+
+              }
+              .loo{ background-image: url(Screenshot\ 2024-10-22\ at\ 2.46.55\ PM.png);
+                  background-size: cover;
+                  height: 70px;
+                  width: 200px;
+                   }
+              .foot4{
+                background-color: #0f1111;
+                color: white;
+                   height: 50px;
+              }  
+              .page{
+               font-size: 0.7rem ;
+                 text-align: center;
+                 padding: 5px;
+            }  
+              .copy{
+                 font-size: 0.7rem;
+                 text-align: center;
+                 padding: 2.5px;
+                } 
